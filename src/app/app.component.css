@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center
+  }
+  img {
+    max-width: 100%
+  }
+  .image {
+    flex-basis: 10%;
+    order: 2;
+  }
+  .hr1 {
+    border: 0;
+    height: 3px;
+    width:750px;
+    background: #20bcc7;
+    background-image: linear-gradient(to right, #ccc, #33b7c0, #ccc);
+  }
+  .example-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  .example-full-width {
+    width: 100%;
+  }
+  
+  td {
+    padding-right: 8px;
+  }
+  .formcss {
+    display: flex;
+    align-items: center;
+    justify-content: center
+  }
+  .example-button-row button,
+.example-button-row a {
+  margin-right: 8px;
+}
